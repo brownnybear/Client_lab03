@@ -1,0 +1,52 @@
+body {
+  background: url(https://static1.squarespace.com/static/5977f4059f74560e1d6f2e1a/t/59a092764c0dbf809fe5f726/1503695488580/CR_Home+BG-01.png?format=2500w) no-repeat center fixed; 
+  background-size: cover;
+  color: white; 
+}
+
+li{
+  color: white;
+}
+
+h3{
+	color: white;
+}
+h1{
+	color: white;
+}
+img {
+  width: 50%;
+  height: 50%;
+}
+
+table, th, td {
+  border: 1px solid #D8BFD8;
+  border-collapse: collapse;
+  color: #F08080;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+
+tr{
+  background-color: #F0E68C;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #B0C4DE;
+  border: solid 1px #FAF0E6;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+
+

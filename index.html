@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title></title>
+       <link rel="stylesheet" href="style.css">
+
+       <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+
+
+    <script>
+     $(() => {
+         $("#b1").click(() => {
+             $("#id2").hide(2000);
+             $("#id2").show('normal');
+             $("#id3").hide(2000);
+             $("#id3").show('fast');  // slow, normal, fast
+         });
+     });
+
+     $(() => {
+         $(document).click(() => {
+             $("#flip").toggle('slow', () => {
+                 $("#panel").slideToggle("slow");
+             })
+         });
+     });
+
+
+
+
+
+  </script>
+  </head>
+
+  <body>
+   	<div class="container-fluid bg-1 ">
+  <center><h1>MY PROFILE</h1>
+  <a href="https://www.google.com">
+  	<img src="nan1.jpg" >
+  </a>
+  <p>
+  	<table>
+  <tr>
+    <th>Name</th>
+    <th>Rattanaporn Thaikerd</th>
+  </tr>
+  <tr>
+    <td>ID</td>
+    <td>5735512047</td>
+  </tr>
+  <tr>
+    <td>My Instagram</td>
+    <td>BAGETTONAN</td>
+  </tr>
+</table>
+  </p></center>
+ <br>
+<ul class="b">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+
+<br></div>
+<center>
+<p id="id2" align="center"> BROWNNY BEAR</p>
+<p id="id3" align="center"> 5735512047</p>
+<button id="b1" align="center" style="color: black"> Show/Hide </button>
+<div id="flip"align="center" style="color: black">....</div>
+<div id="panel"><img src="https://i.gifer.com/ZXuu.gif" style="width:300px;height:250px;" ></div>
+
+   </body>
+</html>
